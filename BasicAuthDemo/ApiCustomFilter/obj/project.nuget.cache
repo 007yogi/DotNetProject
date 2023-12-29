@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "1Hh8tk+hY2IiFJ1bkF7Ux9dKLjt8f8RsLTOK9Z0UqN42ERc28ox8hSTTfUe4VAbdzLnKSCJIMB63iw/hsFt+EQ==",
+  "success": true,
+  "projectFilePath": "D:\\yogesh\\coreApp\\BasicAuthDemo\\ApiCustomFilter\\ApiCustomFilter.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\rajesh.khanna.RAJESH-SI1003\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.3\\microsoft.aspnetcore.openapi.7.0.3.nupkg.sha512",
+    "C:\\Users\\rajesh.khanna.RAJESH-SI1003\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\rajesh.khanna.RAJESH-SI1003\\.nuget\\packages\\microsoft.openapi\\1.4.3\\microsoft.openapi.1.4.3.nupkg.sha512",
+    "C:\\Users\\rajesh.khanna.RAJESH-SI1003\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
+    "C:\\Users\\rajesh.khanna.RAJESH-SI1003\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.4.0\\swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
+    "C:\\Users\\rajesh.khanna.RAJESH-SI1003\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.4.0\\swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
+    "C:\\Users\\rajesh.khanna.RAJESH-SI1003\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.4.0\\swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512"
+  ],
+  "logs": []
+}

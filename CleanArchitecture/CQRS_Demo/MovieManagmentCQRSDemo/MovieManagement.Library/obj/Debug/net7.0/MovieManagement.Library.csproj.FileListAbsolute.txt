@@ -1,0 +1,17 @@
+D:\yogesh\coreApp\CleanArchitecture\CQRS_Demo\MovieManagmentCQRSDemo\MovieManagement.Library\bin\Debug\net7.0\MovieManagement.Library.deps.json
+D:\yogesh\coreApp\CleanArchitecture\CQRS_Demo\MovieManagmentCQRSDemo\MovieManagement.Library\bin\Debug\net7.0\MovieManagement.Library.dll
+D:\yogesh\coreApp\CleanArchitecture\CQRS_Demo\MovieManagmentCQRSDemo\MovieManagement.Library\bin\Debug\net7.0\MovieManagement.Library.pdb
+D:\yogesh\coreApp\CleanArchitecture\CQRS_Demo\MovieManagmentCQRSDemo\MovieManagement.Library\obj\Debug\net7.0\MovieManagement.Library.csproj.AssemblyReference.cache
+D:\yogesh\coreApp\CleanArchitecture\CQRS_Demo\MovieManagmentCQRSDemo\MovieManagement.Library\obj\Debug\net7.0\MovieManagement.Library.GeneratedMSBuildEditorConfig.editorconfig
+D:\yogesh\coreApp\CleanArchitecture\CQRS_Demo\MovieManagmentCQRSDemo\MovieManagement.Library\obj\Debug\net7.0\MovieManagement.Library.AssemblyInfoInputs.cache
+D:\yogesh\coreApp\CleanArchitecture\CQRS_Demo\MovieManagmentCQRSDemo\MovieManagement.Library\obj\Debug\net7.0\MovieManagement.Library.AssemblyInfo.cs
+D:\yogesh\coreApp\CleanArchitecture\CQRS_Demo\MovieManagmentCQRSDemo\MovieManagement.Library\obj\Debug\net7.0\MovieManagement.Library.csproj.CoreCompileInputs.cache
+D:\yogesh\coreApp\CleanArchitecture\CQRS_Demo\MovieManagmentCQRSDemo\MovieManagement.Library\obj\Debug\net7.0\MovieManagement.Library.dll
+D:\yogesh\coreApp\CleanArchitecture\CQRS_Demo\MovieManagmentCQRSDemo\MovieManagement.Library\obj\Debug\net7.0\refint\MovieManagement.Library.dll
+D:\yogesh\coreApp\CleanArchitecture\CQRS_Demo\MovieManagmentCQRSDemo\MovieManagement.Library\obj\Debug\net7.0\MovieManagement.Library.pdb
+D:\yogesh\coreApp\CleanArchitecture\CQRS_Demo\MovieManagmentCQRSDemo\MovieManagement.Library\obj\Debug\net7.0\ref\MovieManagement.Library.dll
+D:\yogesh\coreApp\CleanArchitecture\CQRS_Demo\MovieManagmentCQRSDemo\MovieManagement.Library\obj\Debug\net7.0\MovieManagement.Library.csproj.CopyComplete
+D:\yogesh\coreApp\CleanArchitecture\CQRS_Demo\MovieManagmentCQRSDemo\MovieManagement.Library\bin\Debug\net7.0\MovieManagement.Model.dll
+D:\yogesh\coreApp\CleanArchitecture\CQRS_Demo\MovieManagmentCQRSDemo\MovieManagement.Library\bin\Debug\net7.0\MovieManagement.Model.pdb
+D:\yogesh\coreApp\CleanArchitecture\CQRS_Demo\MovieManagmentCQRSDemo\MovieManagement.Library\bin\Debug\net7.0\MovieManagement.Library.runtimeconfig.json
+D:\yogesh\coreApp\CleanArchitecture\CQRS_Demo\MovieManagmentCQRSDemo\MovieManagement.Library\obj\Debug\net7.0\MovieManagement.Library.genruntimeconfig.cache

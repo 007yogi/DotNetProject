@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "tGTDY8w1DIHGfsgrpE8xZMlZgMY42tsriaw0RxJ/dIpS1S9M2vMA+4r46PtDBByjRs2NBaustg0qvxgRLmGRgw==",
+  "success": true,
+  "projectFilePath": "D:\\yogesh\\coreApp\\CleanArchitecture\\CleanArchitectureDemo\\CleanMovie.Application\\CleanMovie.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\rajesh.khanna.RAJESH-SI1003\\.nuget\\packages\\mediatr\\11.0.0\\mediatr.11.0.0.nupkg.sha512",
+    "C:\\Users\\rajesh.khanna.RAJESH-SI1003\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

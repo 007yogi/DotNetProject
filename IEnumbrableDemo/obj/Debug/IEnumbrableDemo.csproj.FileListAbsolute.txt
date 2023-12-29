@@ -1,0 +1,16 @@
+D:\yogesh\IEnumbrable\IEnumbrableDemo\bin\Debug\IEnumbrableDemo.exe.config
+D:\yogesh\IEnumbrable\IEnumbrableDemo\bin\Debug\IEnumbrableDemo.exe
+D:\yogesh\IEnumbrable\IEnumbrableDemo\bin\Debug\IEnumbrableDemo.pdb
+D:\yogesh\IEnumbrable\IEnumbrableDemo\obj\Debug\IEnumbrableDemo.csproj.AssemblyReference.cache
+D:\yogesh\IEnumbrable\IEnumbrableDemo\obj\Debug\IEnumbrableDemo.csproj.SuggestedBindingRedirects.cache
+D:\yogesh\IEnumbrable\IEnumbrableDemo\obj\Debug\IEnumbrableDemo.csproj.CoreCompileInputs.cache
+D:\yogesh\IEnumbrable\IEnumbrableDemo\obj\Debug\IEnumbrableDemo.exe
+D:\yogesh\IEnumbrable\IEnumbrableDemo\obj\Debug\IEnumbrableDemo.pdb
+D:\yogesh\coreApp\IEnumbrableDemo\bin\Debug\IEnumbrableDemo.exe.config
+D:\yogesh\coreApp\IEnumbrableDemo\bin\Debug\IEnumbrableDemo.exe
+D:\yogesh\coreApp\IEnumbrableDemo\bin\Debug\IEnumbrableDemo.pdb
+D:\yogesh\coreApp\IEnumbrableDemo\obj\Debug\IEnumbrableDemo.csproj.AssemblyReference.cache
+D:\yogesh\coreApp\IEnumbrableDemo\obj\Debug\IEnumbrableDemo.csproj.SuggestedBindingRedirects.cache
+D:\yogesh\coreApp\IEnumbrableDemo\obj\Debug\IEnumbrableDemo.csproj.CoreCompileInputs.cache
+D:\yogesh\coreApp\IEnumbrableDemo\obj\Debug\IEnumbrableDemo.exe
+D:\yogesh\coreApp\IEnumbrableDemo\obj\Debug\IEnumbrableDemo.pdb

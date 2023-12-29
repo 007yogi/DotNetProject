@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "7URJY0Q6GMsCBc+aYhd1fZwVeZLmkBcXpYFxWbAVZZw=",
+  "Source": "ApiCustomFilter",
+  "BasePath": "_content/ApiCustomFilter",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

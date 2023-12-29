@@ -1,0 +1,14 @@
+D:\yogesh\coreApp\ConsolePrograms\ConsoleApp\bin\Debug\net8.0\ConsoleApp.exe
+D:\yogesh\coreApp\ConsolePrograms\ConsoleApp\bin\Debug\net8.0\ConsoleApp.deps.json
+D:\yogesh\coreApp\ConsolePrograms\ConsoleApp\bin\Debug\net8.0\ConsoleApp.runtimeconfig.json
+D:\yogesh\coreApp\ConsolePrograms\ConsoleApp\bin\Debug\net8.0\ConsoleApp.dll
+D:\yogesh\coreApp\ConsolePrograms\ConsoleApp\bin\Debug\net8.0\ConsoleApp.pdb
+D:\yogesh\coreApp\ConsolePrograms\ConsoleApp\obj\Debug\net8.0\ConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\yogesh\coreApp\ConsolePrograms\ConsoleApp\obj\Debug\net8.0\ConsoleApp.AssemblyInfoInputs.cache
+D:\yogesh\coreApp\ConsolePrograms\ConsoleApp\obj\Debug\net8.0\ConsoleApp.AssemblyInfo.cs
+D:\yogesh\coreApp\ConsolePrograms\ConsoleApp\obj\Debug\net8.0\ConsoleApp.csproj.CoreCompileInputs.cache
+D:\yogesh\coreApp\ConsolePrograms\ConsoleApp\obj\Debug\net8.0\ConsoleApp.dll
+D:\yogesh\coreApp\ConsolePrograms\ConsoleApp\obj\Debug\net8.0\refint\ConsoleApp.dll
+D:\yogesh\coreApp\ConsolePrograms\ConsoleApp\obj\Debug\net8.0\ConsoleApp.pdb
+D:\yogesh\coreApp\ConsolePrograms\ConsoleApp\obj\Debug\net8.0\ConsoleApp.genruntimeconfig.cache
+D:\yogesh\coreApp\ConsolePrograms\ConsoleApp\obj\Debug\net8.0\ref\ConsoleApp.dll

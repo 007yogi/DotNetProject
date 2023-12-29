@@ -1,0 +1,12 @@
+D:\yogesh\coreApp\CleanArchitecture\CQRS_Demo\MovieManagmentCQRSDemo\MovieManagement.Model\bin\Debug\net7.0\MovieManagement.Model.deps.json
+D:\yogesh\coreApp\CleanArchitecture\CQRS_Demo\MovieManagmentCQRSDemo\MovieManagement.Model\bin\Debug\net7.0\MovieManagement.Model.dll
+D:\yogesh\coreApp\CleanArchitecture\CQRS_Demo\MovieManagmentCQRSDemo\MovieManagement.Model\bin\Debug\net7.0\MovieManagement.Model.pdb
+D:\yogesh\coreApp\CleanArchitecture\CQRS_Demo\MovieManagmentCQRSDemo\MovieManagement.Model\obj\Debug\net7.0\MovieManagement.Model.csproj.AssemblyReference.cache
+D:\yogesh\coreApp\CleanArchitecture\CQRS_Demo\MovieManagmentCQRSDemo\MovieManagement.Model\obj\Debug\net7.0\MovieManagement.Model.GeneratedMSBuildEditorConfig.editorconfig
+D:\yogesh\coreApp\CleanArchitecture\CQRS_Demo\MovieManagmentCQRSDemo\MovieManagement.Model\obj\Debug\net7.0\MovieManagement.Model.AssemblyInfoInputs.cache
+D:\yogesh\coreApp\CleanArchitecture\CQRS_Demo\MovieManagmentCQRSDemo\MovieManagement.Model\obj\Debug\net7.0\MovieManagement.Model.AssemblyInfo.cs
+D:\yogesh\coreApp\CleanArchitecture\CQRS_Demo\MovieManagmentCQRSDemo\MovieManagement.Model\obj\Debug\net7.0\MovieManagement.Model.csproj.CoreCompileInputs.cache
+D:\yogesh\coreApp\CleanArchitecture\CQRS_Demo\MovieManagmentCQRSDemo\MovieManagement.Model\obj\Debug\net7.0\MovieManagement.Model.dll
+D:\yogesh\coreApp\CleanArchitecture\CQRS_Demo\MovieManagmentCQRSDemo\MovieManagement.Model\obj\Debug\net7.0\refint\MovieManagement.Model.dll
+D:\yogesh\coreApp\CleanArchitecture\CQRS_Demo\MovieManagmentCQRSDemo\MovieManagement.Model\obj\Debug\net7.0\MovieManagement.Model.pdb
+D:\yogesh\coreApp\CleanArchitecture\CQRS_Demo\MovieManagmentCQRSDemo\MovieManagement.Model\obj\Debug\net7.0\ref\MovieManagement.Model.dll

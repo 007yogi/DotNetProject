@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\IEnumrableICollectionIList.props" />
+</Project>

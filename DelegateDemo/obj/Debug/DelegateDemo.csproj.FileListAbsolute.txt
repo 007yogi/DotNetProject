@@ -1,0 +1,7 @@
+D:\yogesh\coreApp\DelegateDemo\bin\Debug\DelegateDemo.exe.config
+D:\yogesh\coreApp\DelegateDemo\bin\Debug\DelegateDemo.exe
+D:\yogesh\coreApp\DelegateDemo\bin\Debug\DelegateDemo.pdb
+D:\yogesh\coreApp\DelegateDemo\obj\Debug\DelegateDemo.csproj.AssemblyReference.cache
+D:\yogesh\coreApp\DelegateDemo\obj\Debug\DelegateDemo.csproj.CoreCompileInputs.cache
+D:\yogesh\coreApp\DelegateDemo\obj\Debug\DelegateDemo.exe
+D:\yogesh\coreApp\DelegateDemo\obj\Debug\DelegateDemo.pdb

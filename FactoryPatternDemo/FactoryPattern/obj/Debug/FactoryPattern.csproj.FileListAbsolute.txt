@@ -1,0 +1,8 @@
+D:\yogesh\coreApp\FactoryPatternDemo\FactoryPattern\bin\Debug\FactoryPattern.exe.config
+D:\yogesh\coreApp\FactoryPatternDemo\FactoryPattern\bin\Debug\FactoryPattern.exe
+D:\yogesh\coreApp\FactoryPatternDemo\FactoryPattern\bin\Debug\FactoryPattern.pdb
+D:\yogesh\coreApp\FactoryPatternDemo\FactoryPattern\obj\Debug\FactoryPattern.csproj.AssemblyReference.cache
+D:\yogesh\coreApp\FactoryPatternDemo\FactoryPattern\obj\Debug\FactoryPattern.csproj.SuggestedBindingRedirects.cache
+D:\yogesh\coreApp\FactoryPatternDemo\FactoryPattern\obj\Debug\FactoryPattern.csproj.CoreCompileInputs.cache
+D:\yogesh\coreApp\FactoryPatternDemo\FactoryPattern\obj\Debug\FactoryPattern.exe
+D:\yogesh\coreApp\FactoryPatternDemo\FactoryPattern\obj\Debug\FactoryPattern.pdb
