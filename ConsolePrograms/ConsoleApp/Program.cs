@@ -5,8 +5,6 @@ public class Program
 {
     public static void Main(string[] args)
     {
-        Console.WriteLine("Main method started.");
-
         /*Indexers*/
         //IndexerDemo stringData = new IndexerDemo();
         //stringData[0] = "One";
@@ -24,8 +22,22 @@ public class Program
         //var name = p2.Name;
         //Console.WriteLine(age + name);
 
-        ReverseArray reverse = new ReverseArray();
-        reverse.ArrReverse();
+        //ReverseArray reverse = new ReverseArray();
+        //reverse.ArrReverse();
+
+        //EncodingDecoding.EncodingAndDecoding();
+
+        //TwilioWhatsApp.WhatsAppMsg();
+
+        //EncapsulationCls obj = new EncapsulationCls();
+        //obj.setName("Yogesh");
+        //obj.getName();
+        //obj.setAge(20);
+        //obj.getAge();
+
+        AbstractionCls obj = new AbstractionCls(1001, "Yogesh", 40000);
+        obj.ShowDetails();
+
 
         Console.ReadLine();
     }

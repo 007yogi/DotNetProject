@@ -11,7 +11,8 @@ public class Program
         //SyncClass.AllTasks();    
         //FindEvenConstant.CountDuplicateChar();
 
-        StringPrograms.CompareStrings();
+        //StringPrograms.CompareStrings();
+        InfoBipWhatsApp.SendMsg();
 
         Console.ReadLine();
     }    

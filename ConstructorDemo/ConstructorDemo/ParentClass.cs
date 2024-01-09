@@ -8,9 +8,6 @@ namespace ConstructorDemo
 {
     public class ParentClass
     {
-        //private string fname;
-        //private string lname;
-        //private int age;
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public int Age { get; set; }
@@ -18,10 +15,11 @@ namespace ConstructorDemo
 
         public ParentClass(string firstName, string lastName, int age)
         {
-            FirstName = firstName;
-            LastName = lastName;
-            Age = age;
-        }        
+            this.FirstName = firstName;
+            this.LastName = lastName;
+            this.Age = age;
+        } 
+
         public void Introduce()
         {
             Console.WriteLine($"Hi I'm {FullName}");

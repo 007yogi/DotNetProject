@@ -10,6 +10,7 @@
   <ItemGroup>
     <PackageReference Include="RestSharp" Version="110.2.0" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+    <PackageReference Include="Twilio" Version="6.15.2" />
   </ItemGroup>
 
 </Project>

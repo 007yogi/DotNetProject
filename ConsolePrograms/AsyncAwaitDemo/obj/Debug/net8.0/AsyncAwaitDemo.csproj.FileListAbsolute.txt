@@ -12,3 +12,4 @@ D:\yogesh\coreApp\ConsolePrograms\AsyncAwaitDemo\obj\Debug\net8.0\refint\AsyncAw
 D:\yogesh\coreApp\ConsolePrograms\AsyncAwaitDemo\obj\Debug\net8.0\AsyncAwaitDemo.pdb
 D:\yogesh\coreApp\ConsolePrograms\AsyncAwaitDemo\obj\Debug\net8.0\AsyncAwaitDemo.genruntimeconfig.cache
 D:\yogesh\coreApp\ConsolePrograms\AsyncAwaitDemo\obj\Debug\net8.0\ref\AsyncAwaitDemo.dll
+D:\yogesh\coreApp\ConsolePrograms\AsyncAwaitDemo\obj\Debug\net8.0\AsyncAwaitDemo.sourcelink.json

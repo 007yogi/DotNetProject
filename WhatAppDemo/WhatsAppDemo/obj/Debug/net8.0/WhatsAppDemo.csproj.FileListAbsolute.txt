@@ -31,4 +31,11 @@ D:\yogesh\coreApp\WhatAppDemo\WhatsAppDemo\obj\Debug\net8.0\refint\WhatsAppDemo.
 D:\yogesh\coreApp\WhatAppDemo\WhatsAppDemo\obj\Debug\net8.0\WhatsAppDemo.pdb
 D:\yogesh\coreApp\WhatAppDemo\WhatsAppDemo\obj\Debug\net8.0\WhatsAppDemo.genruntimeconfig.cache
 D:\yogesh\coreApp\WhatAppDemo\WhatsAppDemo\obj\Debug\net8.0\ref\WhatsAppDemo.dll
-D:\yogesh\coreApp\WhatAppDemo\WhatsAppDemo\bin\Debug\net8.0\WhatsAppApi.dll
+D:\yogesh\coreApp\WhatAppDemo\WhatsAppDemo\obj\Debug\net8.0\WhatsAppDemo.sourcelink.json
+D:\yogesh\coreApp\WhatAppDemo\WhatsAppDemo\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\yogesh\coreApp\WhatAppDemo\WhatsAppDemo\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\yogesh\coreApp\WhatAppDemo\WhatsAppDemo\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\yogesh\coreApp\WhatAppDemo\WhatsAppDemo\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\yogesh\coreApp\WhatAppDemo\WhatsAppDemo\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\yogesh\coreApp\WhatAppDemo\WhatsAppDemo\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\yogesh\coreApp\WhatAppDemo\WhatsAppDemo\bin\Debug\net8.0\Twilio.dll

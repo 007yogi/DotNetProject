@@ -12,3 +12,13 @@ D:\yogesh\coreApp\ConsolePrograms\ConsoleApp\obj\Debug\net8.0\refint\ConsoleApp.
 D:\yogesh\coreApp\ConsolePrograms\ConsoleApp\obj\Debug\net8.0\ConsoleApp.pdb
 D:\yogesh\coreApp\ConsolePrograms\ConsoleApp\obj\Debug\net8.0\ConsoleApp.genruntimeconfig.cache
 D:\yogesh\coreApp\ConsolePrograms\ConsoleApp\obj\Debug\net8.0\ref\ConsoleApp.dll
+D:\yogesh\coreApp\ConsolePrograms\ConsoleApp\obj\Debug\net8.0\ConsoleApp.sourcelink.json
+D:\yogesh\coreApp\ConsolePrograms\ConsoleApp\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\yogesh\coreApp\ConsolePrograms\ConsoleApp\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\yogesh\coreApp\ConsolePrograms\ConsoleApp\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\yogesh\coreApp\ConsolePrograms\ConsoleApp\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\yogesh\coreApp\ConsolePrograms\ConsoleApp\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\yogesh\coreApp\ConsolePrograms\ConsoleApp\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\yogesh\coreApp\ConsolePrograms\ConsoleApp\bin\Debug\net8.0\Twilio.dll
+D:\yogesh\coreApp\ConsolePrograms\ConsoleApp\obj\Debug\net8.0\ConsoleApp.csproj.AssemblyReference.cache
+D:\yogesh\coreApp\ConsolePrograms\ConsoleApp\obj\Debug\net8.0\ConsoleApp.csproj.CopyComplete

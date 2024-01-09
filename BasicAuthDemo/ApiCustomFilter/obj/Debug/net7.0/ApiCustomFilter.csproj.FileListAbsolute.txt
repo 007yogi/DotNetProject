@@ -31,3 +31,4 @@ D:\yogesh\coreApp\BasicAuthDemo\ApiCustomFilter\obj\Debug\net7.0\refint\ApiCusto
 D:\yogesh\coreApp\BasicAuthDemo\ApiCustomFilter\obj\Debug\net7.0\ApiCustomFilter.pdb
 D:\yogesh\coreApp\BasicAuthDemo\ApiCustomFilter\obj\Debug\net7.0\ApiCustomFilter.genruntimeconfig.cache
 D:\yogesh\coreApp\BasicAuthDemo\ApiCustomFilter\obj\Debug\net7.0\ref\ApiCustomFilter.dll
+D:\yogesh\coreApp\BasicAuthDemo\ApiCustomFilter\obj\Debug\net7.0\ApiCustomFilter.sourcelink.json

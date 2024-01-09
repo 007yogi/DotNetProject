@@ -2,6 +2,8 @@
 using RestSharp;
 using System.Text;
 using System.Text.Json;
+using Twilio;
+using Twilio.Rest.Api.V2010.Account;
 
 namespace WhatsAppDemo.Controllers
 {
@@ -9,9 +11,15 @@ namespace WhatsAppDemo.Controllers
     [ApiController]
     public class WhatsAppController : ControllerBase
     {
+        private readonly IConfiguration _config;
+
+        public WhatsAppController(IConfiguration config)
+        {
+            _config = config;
+        }
         [HttpPost("SendMsg")]
         public async Task<IActionResult> SendMsg()
-        {            
+        {
             var instanceId = 72793;
             var tokenId = "6xsbdu9odkbjmgys";
             var to = "8287817167";
@@ -41,7 +49,7 @@ namespace WhatsAppDemo.Controllers
 
         [HttpPost("SendWhatsAppMsg")]
         public async Task<IActionResult> SendWhatsAppMsg(RequestModel model)
-        {           
+        {
             var url = $"https://api.ultramsg.com/instance{model.InstanceId}/messages/chat";
             var data = new
             {
@@ -65,6 +73,29 @@ namespace WhatsAppDemo.Controllers
             }
         }
 
+        [HttpPost("WhatsAppMsg")]
+        public async Task<IActionResult> WhatsAppMsg()
+        {
+            // Find your Account SID and Auth Token at twilio.com/console
+            // and set the environment variables. See http://twil.io/secure
+            var accountSid = _config["TwilioAPI:accountSID"];
+            var authToken = _config["TwilioAPI:authToken"];
+            TwilioClient.Init(accountSid, authToken);
 
+            string msg = "Hello Buddy, How are you.";
+            string fromno = "+14155238886";
+            string tono = "+918287817167";
+
+            var message = MessageResource.Create(
+                body: msg,
+                from: new Twilio.Types.PhoneNumber("whatsapp:" + fromno),
+                to: new Twilio.Types.PhoneNumber("whatsapp:" + tono)
+            );
+            if(message.ErrorCode != null)
+            {
+                return BadRequest(message.ErrorCode);
+            }
+            return Ok(message.Status);
+        }
     }
 }
