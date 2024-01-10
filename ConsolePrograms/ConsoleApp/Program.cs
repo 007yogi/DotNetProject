@@ -16,7 +16,7 @@ public class Program
         //}
 
 
-        //C# 12 feature.
+        //C# 12 new feature.
         //Student p2 = new Student("yogesh", 30, "school");
         //var age = p2.Age;
         //var name = p2.Name;

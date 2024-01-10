@@ -44,3 +44,4 @@ D:\yogesh\coreApp\HtmlToPdfDemo\HtmlToPdf\obj\Debug\netcoreapp3.1\HtmlToPdfApp.c
 D:\yogesh\coreApp\HtmlToPdfDemo\HtmlToPdf\obj\Debug\netcoreapp3.1\HtmlToPdfApp.dll
 D:\yogesh\coreApp\HtmlToPdfDemo\HtmlToPdf\obj\Debug\netcoreapp3.1\HtmlToPdfApp.pdb
 D:\yogesh\coreApp\HtmlToPdfDemo\HtmlToPdf\obj\Debug\netcoreapp3.1\HtmlToPdfApp.genruntimeconfig.cache
+D:\yogesh\coreApp\HtmlToPdfDemo\HtmlToPdf\obj\Debug\netcoreapp3.1\HtmlToPdfApp.sourcelink.json
