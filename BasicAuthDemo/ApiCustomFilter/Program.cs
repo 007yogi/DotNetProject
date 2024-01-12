@@ -22,6 +22,7 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseAuthorization();
+app.UseMiddleware<SampleMiddleware>();
 
 app.MapControllers();
 

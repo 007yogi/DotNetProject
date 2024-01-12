@@ -25,13 +25,25 @@ class Program
         //PrivateConstructor obj = new PrivateConstructor();
         //PrivateConstructor.Getname("Yogesh");
 
-        ConstructorOverloading obj = new ConstructorOverloading("Hello", " India");
+        //ConstructorOverloading obj = new ConstructorOverloading("Hello", " India");
 
         //DestructorCls obj = new DestructorCls("Rahul", 25);
         //Console.WriteLine(obj.GetName());
         //Console.WriteLine(obj.GetAge());
 
+        /* Constructor Overriding */
 
-        //Console.ReadKey();
+        //DerivedClass derivedObject1 = new DerivedClass();
+        //derivedObject1.DisplayValue();
+        //derivedObject1.DisplayDerivedValue();
+
+        //Console.WriteLine("----------------------");
+
+        DerivedClass derivedObject2 = new DerivedClass(30, 40);
+        derivedObject2.DisplayValue();
+        derivedObject2.DisplayDerivedValue();
+        /* Constructor Overriding */
+
+        Console.ReadKey();
     }
 }
