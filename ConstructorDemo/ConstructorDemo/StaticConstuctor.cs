@@ -16,7 +16,7 @@ namespace ConstructorDemo
         static StaticConstuctor()   // static constuctor
         {
             Name = "Yogesh";
-            Age = 30;
+            Age = 30;           
             Console.WriteLine("Static Constructor invoked!");
         }
         public StaticConstuctor()       // default constuctor
