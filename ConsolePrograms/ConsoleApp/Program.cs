@@ -4,8 +4,8 @@ using System;
 using static ConsoleApp.Dotnet8;
 public class Program
 {
-    public static void Main(string[] args)
-    {
+    /*public static void Main(string[] args)
+    {*/
         /*Indexers*/
 
         //IndexerDemo stringData = new IndexerDemo();
@@ -119,6 +119,6 @@ public class Program
         //Console.WriteLine(o1 == o2); // compare object reference
         //Console.WriteLine(o1.Equals(o2) + "\n Obj1: " + o1.GetType() + "\n Obj2: " + o2.GetType()); // compare content
 
-        Console.ReadLine();
-    }
+        /*Console.ReadLine();
+    }*/
 }

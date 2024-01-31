@@ -31,3 +31,4 @@ D:\yogesh\coreApp\BasicAuthDemo\BasicAuthentication\obj\Debug\net7.0\refint\Basi
 D:\yogesh\coreApp\BasicAuthDemo\BasicAuthentication\obj\Debug\net7.0\BasicAuthentication.pdb
 D:\yogesh\coreApp\BasicAuthDemo\BasicAuthentication\obj\Debug\net7.0\BasicAuthentication.genruntimeconfig.cache
 D:\yogesh\coreApp\BasicAuthDemo\BasicAuthentication\obj\Debug\net7.0\ref\BasicAuthentication.dll
+D:\yogesh\coreApp\BasicAuthDemo\BasicAuthentication\obj\Debug\net7.0\BasicAuthentication.sourcelink.json
