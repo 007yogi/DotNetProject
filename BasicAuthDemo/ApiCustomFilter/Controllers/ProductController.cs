@@ -6,6 +6,7 @@ namespace ApiCustomFilter.Controllers
     [Route("api/[controller]")]
     [ApiController]
     [SampleActionFilter("controller")]
+    [LogAttributeFilter]
     public class ProductController : ControllerBase
     {
         [HttpGet]
