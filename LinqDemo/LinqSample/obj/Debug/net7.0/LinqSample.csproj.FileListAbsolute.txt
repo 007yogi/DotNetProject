@@ -68,3 +68,4 @@ D:\yogesh\coreApp\LinqDemo\LinqSample\bin\Debug\net7.0\LinqSample.dll
 D:\yogesh\coreApp\LinqDemo\LinqSample\bin\Debug\net7.0\LinqSample.pdb
 D:\yogesh\coreApp\LinqDemo\LinqSample\obj\Debug\net7.0\LinqSample.genruntimeconfig.cache
 D:\yogesh\coreApp\LinqDemo\LinqSample\obj\Debug\net7.0\ref\LinqSample.dll
+D:\yogesh\coreApp\LinqDemo\LinqSample\obj\Debug\net7.0\LinqSample.sourcelink.json

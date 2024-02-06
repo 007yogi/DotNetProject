@@ -1,5 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json;
 using System.Net.Http.Headers;
+using System.Reflection;
 using System.Text;
 
 namespace WhatsAppDemo.Controllers
@@ -76,5 +78,59 @@ namespace WhatsAppDemo.Controllers
             }
         }
 
+
+        [HttpGet("ConsumeAPI")]
+        public async Task<IActionResult> ConsumeAPI()
+        {
+            string BASE_URL = "http://localhost:39192/api/Department/GetAllDepartment";
+            HttpClient client = new HttpClient();
+
+            client.BaseAddress = new Uri(BASE_URL);  
+            string stringData = string.Empty;
+            //StringContent content = new StringContent(stringData, Encoding.UTF8, "application/json");
+
+            HttpResponseMessage response = client.GetAsync(BASE_URL).Result;
+            dynamic jsonResponse = response.Content.ReadAsStringAsync().Result;
+            var statusCode = Convert.ToInt32(response.StatusCode);
+
+            if (response.IsSuccessStatusCode)
+            {
+                dynamic deserializeData = JsonConvert.DeserializeObject<dynamic>(jsonResponse);
+                dynamic deserializeResult = deserializeData.data;
+
+                dynamic serializeData = JsonConvert.SerializeObject(deserializeResult);
+                //dynamic tripResult = JsonConvert.DeserializeObject<dynamic>(serializeData);
+
+                return Ok(jsonResponse);
+            }
+            else
+            {
+                return BadRequest();
+            }
+        }
+
+        [HttpPost("GetPostAPI")]
+        public async Task<IActionResult> GetPostAPI(Department dept)
+        {
+            var url = "http://localhost:39192/api/Department/InsertDepartment";
+            /*Department objData = new Department();
+            objData.departmentId = 20;
+            objData.departmentName = "Hockey";*/
+
+            string jsonString = JsonConvert.SerializeObject(dept);
+            StringContent postdata = new StringContent(jsonString, Encoding.UTF8, "application/json");
+
+            HttpClient httpClient = new HttpClient();
+            HttpResponseMessage httpResponse = await httpClient.PostAsync(url, postdata);
+            dynamic jsonRespone = await httpResponse.Content.ReadAsStringAsync();
+            if (httpResponse.IsSuccessStatusCode)
+            {
+                return Ok(jsonRespone);
+            }
+            else
+            {
+                return BadRequest();
+            }
+        }
     }
 }
