@@ -24,7 +24,7 @@ app.UseAuthorization();
 
 app.MapControllers();
 
-// calling extention methods
+/*calling extention methods.*/
 int a = 12;
 var b = a.CustomIntExtention();
 //var b = IntExtention.CustomIntExtention(a);
@@ -36,28 +36,31 @@ Console.WriteLine(strVal);
 
 app.Use(async (context, next) =>
 {
-    // await context.Response.WriteAsync("Before Invoke from 1st app.Use()\n");
+    Console.WriteLine("Before Invoke from 1st app.Use()\n");
     await next();
-    //await context.Response.WriteAsync("After Invoke from 1st app.Use()\n");
+    Console.WriteLine("After Invoke from 1st app.Use()\n");
 });
 
 app.Use(async (context, next) =>
 {
-    //await context.Response.WriteAsync("Before Invoke from 2nd app.Use()\n");
+    Console.WriteLine("Before Invoke from 2nd app.Use()\n");
     await next();
-    //await context.Response.WriteAsync("After Invoke from 2nd app.Use()\n");
+    Console.WriteLine("After Invoke from 2nd app.Use()\n");
 });
 
-app.MapGet("/m1{id}", (int id) =>
-{
-    return Results.Ok("MapGet" + id.ToString());
-});
+//app.MapGet("/m1{id}", (int id) =>
+//{
+//    return Results.Ok("MapGet" + id.ToString());
+//});
+
 //app.Map("/m2", x => {
 //    x.Run(async context =>
 //    {
 //        await context.Response.WriteAsync("Hello from 2nd app.Map()");
 //    });
 //});
+
+//app.UseMiddleware<CustomMiddleware>();
 app.UseMyMiddleware();
 app.Run();
 

@@ -11,11 +11,12 @@ class Program
         //C1.Profile();
 
         //ParentClass p1 = new ParentClass("Yogesh", "Kumar", 30);
+        //p1.Introduce();
         //Console.WriteLine(p1.FirstName);
 
-        StaticConstuctor sc = new StaticConstuctor();
+        /*StaticConstuctor sc = new StaticConstuctor();
         sc.GetDetails();
-        StaticConstuctor sc2 = new StaticConstuctor("Gurgaon");
+        StaticConstuctor sc2 = new StaticConstuctor("Gurgaon");*/
 
         //CopyConstructor obj = new CopyConstructor("Yogesh", "Gurgaon");
         //obj.Getdata();
@@ -31,7 +32,7 @@ class Program
         //Console.WriteLine(obj.GetName());
         //Console.WriteLine(obj.GetAge());
 
-        /* Constructor Overriding */
+        /* ConstractorOverriding */
 
         //DerivedClass derivedObject1 = new DerivedClass();
         //derivedObject1.DisplayValue();
@@ -43,6 +44,9 @@ class Program
         //derivedObject2.DisplayValue();
         //derivedObject2.DisplayDerivedValue();
         /* Constructor Overriding */
+
+        ConstructorChaining obj = new ConstructorChaining();
+
 
         Console.ReadKey();
     }

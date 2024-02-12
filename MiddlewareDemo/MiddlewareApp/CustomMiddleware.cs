@@ -14,7 +14,7 @@ namespace MiddlewareApp
         }
         public async Task InvokeAsync(HttpContext context)
         {
-            //await context.Response.WriteAsync("Excecute custom middleware.\n");
+            Console.WriteLine("Excecute custom middleware.\n");
             await _next(context);
         }
     }

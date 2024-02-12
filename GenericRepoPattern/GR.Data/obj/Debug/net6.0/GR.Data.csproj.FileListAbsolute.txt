@@ -12,3 +12,4 @@ D:\yogesh\coreApp\GenericRepoPattern\GR.Data\obj\Debug\net6.0\refint\GR.Data.dll
 D:\yogesh\coreApp\GenericRepoPattern\GR.Data\obj\Debug\net6.0\GR.Data.pdb
 D:\yogesh\coreApp\GenericRepoPattern\GR.Data\obj\Debug\net6.0\GR.Data.genruntimeconfig.cache
 D:\yogesh\coreApp\GenericRepoPattern\GR.Data\obj\Debug\net6.0\ref\GR.Data.dll
+D:\yogesh\coreApp\GenericRepoPattern\GR.Data\obj\Debug\net6.0\GR.Data.sourcelink.json

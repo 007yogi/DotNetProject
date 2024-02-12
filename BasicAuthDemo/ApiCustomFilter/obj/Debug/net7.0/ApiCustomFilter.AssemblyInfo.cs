@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ApiCustomFilter")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cacdaa6fc0885781466d47727c4934a4725fa2b7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c8d6a68c177648ad0b4fd264ea17cfe2811a099a")]
 [assembly: System.Reflection.AssemblyProductAttribute("ApiCustomFilter")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ApiCustomFilter")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -8,8 +8,8 @@ namespace ConstructorDemo
 {
     public class CopyConstructor
     {
-        public string Name;
-        public string Address;
+        private readonly string Name;
+        private readonly string Address;
 
         public CopyConstructor(string name, string address) // Parameterazied constructor
         {

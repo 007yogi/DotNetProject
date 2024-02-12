@@ -2,9 +2,10 @@
 {
     public static class IntExtention
     {
-        public static int CustomIntExtention(this int x)
+        public static string CustomIntExtention(this int x)
         {
-            return x + 100;
+            string str = x.ToString();
+            return x + "100";
         }
     }
 

@@ -14,11 +14,11 @@ namespace ConstructorDemo
         }
         public ConstructorOverloading(int a, int b)
         {
-            Console.WriteLine("This id second constructor {0}", (a+b));
+            Console.WriteLine("This id second constructor {0}", (a + b));
         }
         public ConstructorOverloading(int a, int b, int c)
         {
-            Console.WriteLine("This id third constructor {0}", (a + b+c));
+            Console.WriteLine("This id third constructor {0}", (a + b + c));
         }
         public ConstructorOverloading(string a, string b)
         {

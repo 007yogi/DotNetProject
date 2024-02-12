@@ -15,13 +15,13 @@ namespace ConstructorDemo
 
         public BaseClass()
         {
-            baseValue = 10;
+            this.baseValue = 10;
             Console.WriteLine("BaseClass default constructor. {0}", baseValue);
         }
 
         public BaseClass(int value)
         {
-            baseValue = value;
+            this.baseValue = value;
             Console.WriteLine("BaseClass parameterized constructor. {0}", baseValue);
         }
 
@@ -37,7 +37,7 @@ namespace ConstructorDemo
 
         public DerivedClass() : base()
         {
-            derivedValue = 20;
+            this.derivedValue = 20;
             Console.WriteLine("DerivedClass default constructor {0}", derivedValue);
         }
 
