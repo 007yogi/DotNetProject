@@ -133,7 +133,9 @@ public class Program
         //GenericCollectionCls.StandardList();
         //GenericCollectionCls.GenericListFunc();
 
-        GenericDictionary.MyDictData();
+        //GenericDictionary.MyDictData();
+
+        Console.WriteLine(ParamsCls.ParamsDemoFun(10, 20, 30 , 40));
 
         Console.ReadLine();
     }
