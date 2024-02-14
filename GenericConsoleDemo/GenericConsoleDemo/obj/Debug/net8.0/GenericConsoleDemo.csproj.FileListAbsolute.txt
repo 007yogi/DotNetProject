@@ -1,0 +1,15 @@
+D:\yogesh\coreApp\GenericConsoleDemo\GenericConsoleDemo\bin\Debug\net8.0\GenericConsoleDemo.exe
+D:\yogesh\coreApp\GenericConsoleDemo\GenericConsoleDemo\bin\Debug\net8.0\GenericConsoleDemo.deps.json
+D:\yogesh\coreApp\GenericConsoleDemo\GenericConsoleDemo\bin\Debug\net8.0\GenericConsoleDemo.runtimeconfig.json
+D:\yogesh\coreApp\GenericConsoleDemo\GenericConsoleDemo\bin\Debug\net8.0\GenericConsoleDemo.dll
+D:\yogesh\coreApp\GenericConsoleDemo\GenericConsoleDemo\bin\Debug\net8.0\GenericConsoleDemo.pdb
+D:\yogesh\coreApp\GenericConsoleDemo\GenericConsoleDemo\obj\Debug\net8.0\GenericConsoleDemo.GeneratedMSBuildEditorConfig.editorconfig
+D:\yogesh\coreApp\GenericConsoleDemo\GenericConsoleDemo\obj\Debug\net8.0\GenericConsoleDemo.AssemblyInfoInputs.cache
+D:\yogesh\coreApp\GenericConsoleDemo\GenericConsoleDemo\obj\Debug\net8.0\GenericConsoleDemo.AssemblyInfo.cs
+D:\yogesh\coreApp\GenericConsoleDemo\GenericConsoleDemo\obj\Debug\net8.0\GenericConsoleDemo.csproj.CoreCompileInputs.cache
+D:\yogesh\coreApp\GenericConsoleDemo\GenericConsoleDemo\obj\Debug\net8.0\GenericConsoleDemo.sourcelink.json
+D:\yogesh\coreApp\GenericConsoleDemo\GenericConsoleDemo\obj\Debug\net8.0\GenericConsoleDemo.dll
+D:\yogesh\coreApp\GenericConsoleDemo\GenericConsoleDemo\obj\Debug\net8.0\refint\GenericConsoleDemo.dll
+D:\yogesh\coreApp\GenericConsoleDemo\GenericConsoleDemo\obj\Debug\net8.0\GenericConsoleDemo.pdb
+D:\yogesh\coreApp\GenericConsoleDemo\GenericConsoleDemo\obj\Debug\net8.0\GenericConsoleDemo.genruntimeconfig.cache
+D:\yogesh\coreApp\GenericConsoleDemo\GenericConsoleDemo\obj\Debug\net8.0\ref\GenericConsoleDemo.dll

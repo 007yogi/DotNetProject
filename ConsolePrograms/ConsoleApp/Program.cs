@@ -119,10 +119,21 @@ public class Program
         //Console.WriteLine(o1 == o2); // compare object reference
         //Console.WriteLine(o1.Equals(o2) + "\n Obj1: " + o1.GetType() + "\n Obj2: " + o2.GetType()); // compare content
 
-        IsAndAsOperatorCls obj = new IsAndAsOperatorCls();
+        //IsAndAsOperatorCls obj = new IsAndAsOperatorCls();
         //obj.IsOperatorFun();
         //obj.AsOperatorFun();
-        obj.NullCaolesceOperator();
+        //obj.NullCaolesceOperator();
+
+        /*HashTable*/
+        /*HashTableCls htCls = new HashTableCls();
+        htCls.hashTableData();*/
+
+        //ArrayListCls.ArrayListDemo();
+
+        //GenericCollectionCls.StandardList();
+        //GenericCollectionCls.GenericListFunc();
+
+        GenericDictionary.MyDictData();
 
         Console.ReadLine();
     }
