@@ -714,8 +714,7 @@
           "MediatR": "11.1.0",
           "Microsoft.EntityFrameworkCore": "7.0.9",
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.9",
-          "MovieManagement.Model": "1.0.0",
-          "MovieManagement.Models": "1.0.0"
+          "MovieManagement.Model": "1.0.0"
         },
         "runtime": {
           "MovieManagement.Library.dll": {}

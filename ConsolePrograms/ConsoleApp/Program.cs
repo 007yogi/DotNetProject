@@ -1,11 +1,22 @@
 ﻿using ConsoleApp;
 using ConsoleApp.Polymorphism;
 using System;
+using System.ComponentModel;
+using System.Runtime.Versioning;
+using Twilio.Rest.Conversations.V1;
 using static ConsoleApp.Dotnet8;
 public class Program
 {
     public static void Main(string[] args)
     {
+        var str = "5/12/2020";
+        DateTime dt;
+
+        var isValidDate = DateTime.TryParse(str, out dt);
+        if (isValidDate)
+            Console.WriteLine(dt);
+        else
+            Console.WriteLine($"{str} is not a valid date string");
         /*Indexers*/
 
         //IndexerDemo stringData = new IndexerDemo();
@@ -68,10 +79,10 @@ public class Program
 
         /*------using statement -------*/
 
-        //using (var obj = new DisposePrint())
-        //{
-        //    obj.PrintCSV();
-        //}
+        /*using (var obj = new DisposePrint())
+        {
+            obj.PrintCSV();
+        }*/
 
         /*-----Dispose--------*/
         //DisposePrint obj = new DisposePrint();
@@ -135,8 +146,6 @@ public class Program
 
         //GenericDictionary.MyDictData();
 
-        Console.WriteLine(ParamsCls.ParamsDemoFun(10, 20, 30 , 40));
-
-        Console.ReadLine();
+        //Console.WriteLine(ParamsCls.ParamsDemoFun(10, 20, 30, 40));
     }
 }

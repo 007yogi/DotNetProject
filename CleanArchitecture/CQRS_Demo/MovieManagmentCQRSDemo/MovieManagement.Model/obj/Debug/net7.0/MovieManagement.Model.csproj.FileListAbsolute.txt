@@ -10,3 +10,15 @@ D:\yogesh\coreApp\CleanArchitecture\CQRS_Demo\MovieManagmentCQRSDemo\MovieManage
 D:\yogesh\coreApp\CleanArchitecture\CQRS_Demo\MovieManagmentCQRSDemo\MovieManagement.Model\obj\Debug\net7.0\refint\MovieManagement.Model.dll
 D:\yogesh\coreApp\CleanArchitecture\CQRS_Demo\MovieManagmentCQRSDemo\MovieManagement.Model\obj\Debug\net7.0\MovieManagement.Model.pdb
 D:\yogesh\coreApp\CleanArchitecture\CQRS_Demo\MovieManagmentCQRSDemo\MovieManagement.Model\obj\Debug\net7.0\ref\MovieManagement.Model.dll
+C:\yogesh\DotNetProject\CleanArchitecture\CQRS_Demo\MovieManagmentCQRSDemo\MovieManagement.Model\bin\Debug\net7.0\MovieManagement.Model.deps.json
+C:\yogesh\DotNetProject\CleanArchitecture\CQRS_Demo\MovieManagmentCQRSDemo\MovieManagement.Model\bin\Debug\net7.0\MovieManagement.Model.dll
+C:\yogesh\DotNetProject\CleanArchitecture\CQRS_Demo\MovieManagmentCQRSDemo\MovieManagement.Model\bin\Debug\net7.0\MovieManagement.Model.pdb
+C:\yogesh\DotNetProject\CleanArchitecture\CQRS_Demo\MovieManagmentCQRSDemo\MovieManagement.Model\obj\Debug\net7.0\MovieManagement.Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\yogesh\DotNetProject\CleanArchitecture\CQRS_Demo\MovieManagmentCQRSDemo\MovieManagement.Model\obj\Debug\net7.0\MovieManagement.Model.AssemblyInfoInputs.cache
+C:\yogesh\DotNetProject\CleanArchitecture\CQRS_Demo\MovieManagmentCQRSDemo\MovieManagement.Model\obj\Debug\net7.0\MovieManagement.Model.AssemblyInfo.cs
+C:\yogesh\DotNetProject\CleanArchitecture\CQRS_Demo\MovieManagmentCQRSDemo\MovieManagement.Model\obj\Debug\net7.0\MovieManagement.Model.csproj.CoreCompileInputs.cache
+C:\yogesh\DotNetProject\CleanArchitecture\CQRS_Demo\MovieManagmentCQRSDemo\MovieManagement.Model\obj\Debug\net7.0\MovieManagement.Model.sourcelink.json
+C:\yogesh\DotNetProject\CleanArchitecture\CQRS_Demo\MovieManagmentCQRSDemo\MovieManagement.Model\obj\Debug\net7.0\MovieManagement.Model.dll
+C:\yogesh\DotNetProject\CleanArchitecture\CQRS_Demo\MovieManagmentCQRSDemo\MovieManagement.Model\obj\Debug\net7.0\refint\MovieManagement.Model.dll
+C:\yogesh\DotNetProject\CleanArchitecture\CQRS_Demo\MovieManagmentCQRSDemo\MovieManagement.Model\obj\Debug\net7.0\MovieManagement.Model.pdb
+C:\yogesh\DotNetProject\CleanArchitecture\CQRS_Demo\MovieManagmentCQRSDemo\MovieManagement.Model\obj\Debug\net7.0\ref\MovieManagement.Model.dll

@@ -1,20 +1,29 @@
-﻿using System.Data.SqlClient;
+﻿using Microsoft.Extensions.Configuration;
+using System.Data.SqlClient;
+using System;
+using System.Configuration;
 
 namespace AdoDemo
 {
-    public class Program 
-    {     
+    public class Program
+    {
+        public static IConfiguration _config;
+        public Program(IConfiguration config)
+        {
+            _config = config;
+        }
         public static void Main(string[] args)
         {
             //new Program().CreateInsertDeleteUpdateCommand();
             //new Program().SelectAllRecord();
 
-            //new AdoExecuteScalar().UseExecuteScalar();
-            new AdoExecuteReader().UseExecuteReader();
+            new AdoExecuteScalar().UseExecuteScalar();
 
-            //new AdoDataAdapter().DataAdapterWithDataSet();
-            //new AdoDataAdapter().DataAdapterWithDataTable();
-            //new AdoDataAdapter().DataAdapterExecuteStoredProcedure();
+            //new AdoExecuteReader().UseExecuteReader();
+
+            //new AdoDataAdapter(_config).DataAdapterWithDataSet();
+            //new AdoDataAdapter(_config).DataAdapterWithDataTable();
+            //new AdoDataAdapter(_config).DataAdapterExecuteStoredProcedure();
 
             //new AdoDataTable().CreateDataTableFun();
 
@@ -25,7 +34,8 @@ namespace AdoDemo
 
         public void CreateInsertDeleteUpdateCommand()
         {
-            string connString = "data source=.; database=EmployeeDB; integrated security=SSPI";
+            //string connString = "data source=.; database=EmployeeDB; integrated security=SSPI";
+            string connString = ConfigurationManager.ConnectionStrings["myCon"].ConnectionString;
             SqlConnection conn = null;
             bool isValid = false;
             try
@@ -42,7 +52,7 @@ namespace AdoDemo
                 isValid = true;
 
                 int rowsAffected = cmd.ExecuteNonQuery();
-                Console.WriteLine("command executed succesfully.");               
+                Console.WriteLine("command executed succesfully.");
                 conn.Close();
             }
             catch (Exception ex)
@@ -56,7 +66,8 @@ namespace AdoDemo
         {
             SqlConnection conn = null;
             bool isValid = false;
-            string connString = "data source=.; database=EmployeeDB; integrated security=SSPI";
+            string connString = ConfigurationManager.ConnectionStrings["myCon"].ConnectionString;
+            //string connString = "data source=.; database=EmployeeDB; integrated security=SSPI";
             try
             {
                 conn = new SqlConnection(connString);
@@ -67,14 +78,21 @@ namespace AdoDemo
                 isValid = true;
 
                 SqlDataReader sdr = cmd.ExecuteReader();
-                
-                while (sdr.Read())
+                if (sdr.HasRows)
                 {
-                    Console.WriteLine(sdr["id"] + " " + sdr["name"]);
+                    while (sdr.Read())
+                    {
+                        Console.WriteLine(sdr["id"] + " " + sdr["name"]);
+                    }
+
+                    Console.WriteLine("display data succesfully.");
+                    conn.Close();
+                }
+                else
+                {
+                    Console.WriteLine("No data found.");
                 }
 
-                Console.WriteLine("display data succesfully.");
-                conn.Close();
             }
             catch (Exception ex)
             {
@@ -83,6 +101,6 @@ namespace AdoDemo
             }
         }
 
-        
+
     }
 }

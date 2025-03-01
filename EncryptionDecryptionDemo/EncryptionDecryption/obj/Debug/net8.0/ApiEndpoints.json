@@ -1,0 +1,34 @@
+[
+  {
+    "ContainingType": "EncryptionDecryption.Controllers.EncryptDecryptController",
+    "Method": "DecryptData",
+    "RelativePath": "api/EncryptDecrypt/decrypt",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cipherText",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EncryptionDecryption.Controllers.EncryptDecryptController",
+    "Method": "EncryptData",
+    "RelativePath": "api/EncryptDecrypt/encrypt",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "plainText",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

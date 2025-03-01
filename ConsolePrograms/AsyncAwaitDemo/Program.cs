@@ -9,10 +9,12 @@ public class Program
         //AsyncClass.AllTasks();
 
         //SyncClass.AllTasks();    
+
         //FindEvenConstant.CountDuplicateChar();
 
         //StringPrograms.CompareStrings();
-        InfoBipWhatsApp.SendMsg();
+
+        //InfoBipWhatsApp.SendMsg();
 
         Console.ReadLine();
     }    

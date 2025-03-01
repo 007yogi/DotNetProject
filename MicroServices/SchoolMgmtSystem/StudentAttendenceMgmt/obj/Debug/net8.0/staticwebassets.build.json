@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "kQbhZE7OTsLIMk64UI3N/hxGlo/I6JYzej1l3oRmZWg=",
+  "Source": "StudentAttendenceMgmt",
+  "BasePath": "_content/StudentAttendenceMgmt",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

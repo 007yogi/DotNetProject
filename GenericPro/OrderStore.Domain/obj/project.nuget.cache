@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "a5QDKshm7yFdyiA75NzbY26o58FQKCQjMA6vgcoP0NgEFWB6+1+eFDnxaMp9RbfxDOle2a6MJOI5S/mptDk+1w==",
+  "dgSpecHash": "y4vtxVIMnXSc+O8CXewsTlv8YIBpWvi2wBcKsq32e98a0Uh3p5kuepvfUpYztcJKBbvAx1WVJKlJuNOhtQDy2Q==",
   "success": true,
-  "projectFilePath": "D:\\yogesh\\coreApp\\GenericPro\\OrderStore.Domain\\OrderStore.Domain.csproj",
+  "projectFilePath": "C:\\yogesh\\DotNetProject\\GenericPro\\OrderStore.Domain\\OrderStore.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

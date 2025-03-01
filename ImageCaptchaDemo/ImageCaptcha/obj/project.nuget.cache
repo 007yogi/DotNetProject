@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "6eexdjOAa1SZ3wiT00qMmeVyNv0DH32VG3MdfvS1NE0Atxh9eBAKuCEUCWPyEPokV3LEiIGRS+u2p8X3si4xOA==",
+  "success": true,
+  "projectFilePath": "C:\\yogesh\\DotNetProject\\ImageCaptchaDemo\\ImageCaptcha\\ImageCaptcha.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Yogesh\\.nuget\\packages\\microsoft.win32.systemevents\\8.0.0\\microsoft.win32.systemevents.8.0.0.nupkg.sha512",
+    "C:\\Users\\Yogesh\\.nuget\\packages\\system.drawing.common\\8.0.8\\system.drawing.common.8.0.8.nupkg.sha512"
+  ],
+  "logs": []
+}

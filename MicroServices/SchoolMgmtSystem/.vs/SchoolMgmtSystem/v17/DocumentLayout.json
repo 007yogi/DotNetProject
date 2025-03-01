@@ -1,0 +1,79 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\yogesh\\DotNetProject\\MicroServices\\SchoolMgmtSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4BAB6026-2121-4DB3-A6BC-FF687393523E}|StudentAdmissionMgmt\\StudentAdmissionMgmt.csproj|c:\\yogesh\\dotnetproject\\microservices\\schoolmgmtsystem\\studentadmissionmgmt\\controllers\\studentadmissioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BAB6026-2121-4DB3-A6BC-FF687393523E}|StudentAdmissionMgmt\\StudentAdmissionMgmt.csproj|solutionrelative:studentadmissionmgmt\\controllers\\studentadmissioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41FD4532-285A-4118-8560-4C61B7B78AB3}|StudentAttendenceMgmt\\StudentAttendenceMgmt.csproj|c:\\yogesh\\dotnetproject\\microservices\\schoolmgmtsystem\\studentattendencemgmt\\controllers\\studentattendencecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41FD4532-285A-4118-8560-4C61B7B78AB3}|StudentAttendenceMgmt\\StudentAttendenceMgmt.csproj|solutionrelative:studentattendencemgmt\\controllers\\studentattendencecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DBD4362-7C0D-4992-9E1C-0200DE2F4B86}|APIGateway\\APIGateway.csproj|c:\\yogesh\\dotnetproject\\microservices\\schoolmgmtsystem\\apigateway\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DBD4362-7C0D-4992-9E1C-0200DE2F4B86}|APIGateway\\APIGateway.csproj|solutionrelative:apigateway\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\yogesh\\DotNetProject\\MicroServices\\SchoolMgmtSystem\\APIGateway\\Program.cs",
+              "RelativeDocumentMoniker": "APIGateway\\Program.cs",
+              "ToolTip": "C:\\yogesh\\DotNetProject\\MicroServices\\SchoolMgmtSystem\\APIGateway\\Program.cs",
+              "RelativeToolTip": "APIGateway\\Program.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAA8AAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T17:41:00.574Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StudentAdmissionController.cs",
+              "DocumentMoniker": "C:\\yogesh\\DotNetProject\\MicroServices\\SchoolMgmtSystem\\StudentAdmissionMgmt\\Controllers\\StudentAdmissionController.cs",
+              "RelativeDocumentMoniker": "StudentAdmissionMgmt\\Controllers\\StudentAdmissionController.cs",
+              "ToolTip": "C:\\yogesh\\DotNetProject\\MicroServices\\SchoolMgmtSystem\\StudentAdmissionMgmt\\Controllers\\StudentAdmissionController.cs",
+              "RelativeToolTip": "StudentAdmissionMgmt\\Controllers\\StudentAdmissionController.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAYwBMAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T17:29:35.812Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StudentAttendenceController.cs",
+              "DocumentMoniker": "C:\\yogesh\\DotNetProject\\MicroServices\\SchoolMgmtSystem\\StudentAttendenceMgmt\\Controllers\\StudentAttendenceController.cs",
+              "RelativeDocumentMoniker": "StudentAttendenceMgmt\\Controllers\\StudentAttendenceController.cs",
+              "ToolTip": "C:\\yogesh\\DotNetProject\\MicroServices\\SchoolMgmtSystem\\StudentAttendenceMgmt\\Controllers\\StudentAttendenceController.cs",
+              "RelativeToolTip": "StudentAttendenceMgmt\\Controllers\\StudentAttendenceController.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAowCQAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T17:13:26.334Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

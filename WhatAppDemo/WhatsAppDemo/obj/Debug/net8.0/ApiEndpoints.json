@@ -1,0 +1,74 @@
+[
+  {
+    "ContainingType": "WhatsAppDemo.Controllers.InfoBipWhatsAppController",
+    "Method": "ConsumeAPI",
+    "RelativePath": "api/InfoBipWhatsApp/ConsumeAPI",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WhatsAppDemo.Controllers.InfoBipWhatsAppController",
+    "Method": "GetPostAPI",
+    "RelativePath": "api/InfoBipWhatsApp/GetPostAPI",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dept",
+        "Type": "WhatsAppDemo.Department",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WhatsAppDemo.Controllers.InfoBipWhatsAppController",
+    "Method": "SendMsg",
+    "RelativePath": "api/InfoBipWhatsApp/SendMsg",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WhatsAppDemo.Controllers.WhatsAppController",
+    "Method": "SendMsg",
+    "RelativePath": "api/WhatsApp/SendMsg",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WhatsAppDemo.Controllers.WhatsAppController",
+    "Method": "SendWhatsAppMsg",
+    "RelativePath": "api/WhatsApp/SendWhatsAppMsg",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "WhatsAppDemo.RequestModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WhatsAppDemo.Controllers.WhatsAppController",
+    "Method": "WhatsAppMsg",
+    "RelativePath": "api/WhatsApp/WhatsAppMsg",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\yogesh\\coreApp\\ADO-dotnet\\AdoDemo\\AdoDemo.csproj": {}
+    "C:\\yogesh\\DotNetProject\\ADO-dotnet\\AdoDemo\\AdoDemo.csproj": {}
   },
   "projects": {
-    "D:\\yogesh\\coreApp\\ADO-dotnet\\AdoDemo\\AdoDemo.csproj": {
+    "C:\\yogesh\\DotNetProject\\ADO-dotnet\\AdoDemo\\AdoDemo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\yogesh\\coreApp\\ADO-dotnet\\AdoDemo\\AdoDemo.csproj",
+        "projectUniqueName": "C:\\yogesh\\DotNetProject\\ADO-dotnet\\AdoDemo\\AdoDemo.csproj",
         "projectName": "AdoDemo",
-        "projectPath": "D:\\yogesh\\coreApp\\ADO-dotnet\\AdoDemo\\AdoDemo.csproj",
-        "packagesPath": "C:\\Users\\rajesh.khanna.RAJESH-SI1003\\.nuget\\packages\\",
-        "outputPath": "D:\\yogesh\\coreApp\\ADO-dotnet\\AdoDemo\\obj\\",
+        "projectPath": "C:\\yogesh\\DotNetProject\\ADO-dotnet\\AdoDemo\\AdoDemo.csproj",
+        "packagesPath": "C:\\Users\\Yogesh\\.nuget\\packages\\",
+        "outputPath": "C:\\yogesh\\DotNetProject\\ADO-dotnet\\AdoDemo\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\rajesh.khanna.RAJESH-SI1003\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Yogesh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -34,6 +39,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -44,9 +54,13 @@
               "target": "Package",
               "version": "[7.0.0, )"
             },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
             "System.Data.SqlClient": {
               "target": "Package",
-              "version": "[4.8.5, )"
+              "version": "[4.8.6, )"
             }
           },
           "imports": [
@@ -65,7 +79,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }

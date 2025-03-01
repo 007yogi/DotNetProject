@@ -17,7 +17,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\MovieManagement.Models\MovieManagement.Models.csproj" />
     <ProjectReference Include="..\MovieManagement.Model\MovieManagement.Model.csproj" />
   </ItemGroup>
 

@@ -1,4 +1,5 @@
 ﻿using Microsoft.Extensions.Configuration;
+using System.Configuration;
 using System.Data.SqlClient;
 
 namespace AdoDemo
@@ -9,7 +10,8 @@ namespace AdoDemo
         {
             try
             {
-                string connStr = "data source=.; database=EmployeeDB; integrated security=SSPI";
+                string connStr = ConfigurationManager.ConnectionStrings["myCon"].ConnectionString;
+                //string connStr = "data source=.; database=EmployeeDB; integrated security=SSPI";
                 using (SqlConnection conn = new SqlConnection(connStr))
                 {
                     string commandTxt = "select count(id) from AdoDemo";

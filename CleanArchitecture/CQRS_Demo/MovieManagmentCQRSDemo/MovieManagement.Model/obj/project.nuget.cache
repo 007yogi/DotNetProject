@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "P1MenXu9Nwt0K1jMBp6edIJpOHuhP9sQPm9ylpCQBtt/cE4QAe2KgoBeFIk1MO2oXhoQifnxtn4oOsPP4NdudA==",
+  "dgSpecHash": "dTcAuBfCgAblCe5OAD31vAwm9x1E6qwBhh8YqAiJ3d6/I+B2JPm21ej95ko38FHKwePc4QXatSOA/p85mryF3A==",
   "success": true,
-  "projectFilePath": "D:\\yogesh\\coreApp\\CleanArchitecture\\CQRS_Demo\\MovieManagmentCQRSDemo\\MovieManagement.Model\\MovieManagement.Model.csproj",
+  "projectFilePath": "C:\\yogesh\\DotNetProject\\CleanArchitecture\\CQRS_Demo\\MovieManagmentCQRSDemo\\MovieManagement.Model\\MovieManagement.Model.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = AsyncAwaitDemo
-build_property.ProjectDir = D:\yogesh\coreApp\ConsolePrograms\AsyncAwaitDemo\
+build_property.ProjectDir = C:\yogesh\DotNetProject\ConsolePrograms\AsyncAwaitDemo\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

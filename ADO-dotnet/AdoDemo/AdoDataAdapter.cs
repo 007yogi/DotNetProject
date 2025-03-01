@@ -1,4 +1,5 @@
 ﻿using Microsoft.Extensions.Configuration;
+using System.Configuration;
 using System.Data;
 using System.Data.SqlClient;
 
@@ -6,6 +7,7 @@ namespace AdoDemo
 {
     public class AdoDataAdapter
     {
+        // Not suport "IConfiguration" in .netframework it work with .NetCore
         private readonly IConfiguration _config;
 
         public AdoDataAdapter(IConfiguration config)
@@ -16,18 +18,21 @@ namespace AdoDemo
         {
             try
             {
-                //ar conStr = _config.GetConnectionString("myCon");
-                string conStr = "data source=.;database=EmployeeDB;integrated security=SSPI";
+                // use "ConfigurationManager" in .netframework.
+                string conStr = ConfigurationManager.ConnectionStrings["myCon"].ConnectionString;
+                //string conStr = _config.GetConnectionString("myCon");
 
                 using (SqlConnection con = new SqlConnection(conStr))
                 {
-                    string commandText = "select * from AdoDemo; select * from products; select * from Student";
-                    SqlCommand cmd = new SqlCommand(commandText, con);
-                    cmd.CommandType = CommandType.Text;
+                    //string commandText = "select * from AdoDemo; select * from products; select * from Student";
+                    //SqlCommand cmd = new SqlCommand(commandText, con);
+                    //cmd.CommandType = CommandType.Text;
+                    //SqlDataAdapter da = new SqlDataAdapter(cmd);
 
-                    SqlDataAdapter da = new SqlDataAdapter(cmd);
+                    SqlDataAdapter da = new SqlDataAdapter("select * from AdoDemo; select * from products; select * from Student", con);
                     DataSet ds = new DataSet();
                     da.Fill(ds);
+
                     var tbl = ds.Tables.Count;
 
                     for (var i = 0; i < tbl; i++)
@@ -38,7 +43,7 @@ namespace AdoDemo
                         }
                         Console.WriteLine("----------------------------");
                     }
-                    
+
                 }
             }
             catch (Exception ex)
@@ -47,12 +52,13 @@ namespace AdoDemo
             }
             Console.ReadKey();
         }
-        
+
         public void DataAdapterWithDataTable()
         {
             try
             {
-                string conStr = "data source=.;database=EmployeeDB;integrated security=SSPI";
+                string conStr = ConfigurationManager.ConnectionStrings["myCon"].ConnectionString;
+                //string conStr = "data source=.;database=EmployeeDB;integrated security=SSPI";
                 using (SqlConnection con = new SqlConnection(conStr))
                 {
                     string commandText = "select * from AdoDemo ";
@@ -69,11 +75,11 @@ namespace AdoDemo
 
                 }
             }
-            catch(Exception ex) 
+            catch (Exception ex)
             {
                 Console.WriteLine(ex);
             }
-            Console.ReadKey ();
+            Console.ReadKey();
 
         }
 
@@ -81,20 +87,24 @@ namespace AdoDemo
         {
             try
             {
-                string conStr = "data source=.; database=EmployeeDB; integrated security=SSPI";
+                //string conStr = "data source=.; database=EmployeeDB; integrated security=SSPI";
+                string conStr = ConfigurationManager.ConnectionStrings["myCon"].ConnectionString;
                 using (SqlConnection con = new SqlConnection(conStr))
                 {
+                    //SqlCommand cmd = new SqlCommand();
+                    //cmd.CommandType = CommandType.StoredProcedure;
+
                     SqlDataAdapter da = new SqlDataAdapter("spGetAdoDemo", con);
                     da.SelectCommand.CommandType = CommandType.StoredProcedure;
                     DataTable dt = new DataTable();
                     da.Fill(dt);
-                    foreach(DataRow row in dt.Rows)
+                    foreach (DataRow row in dt.Rows)
                     {
                         Console.WriteLine(row[1]);
                     }
                 }
             }
-            catch(Exception ex) 
+            catch (Exception ex)
             {
                 Console.WriteLine("OOP's", ex);
             }

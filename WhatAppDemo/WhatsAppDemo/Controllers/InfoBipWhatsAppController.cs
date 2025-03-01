@@ -96,9 +96,9 @@ namespace WhatsAppDemo.Controllers
             if (response.IsSuccessStatusCode)
             {
                 dynamic deserializeData = JsonConvert.DeserializeObject<dynamic>(jsonResponse);
-                dynamic deserializeResult = deserializeData.data;
+                //dynamic deserializeResult = deserializeData.data;
 
-                dynamic serializeData = JsonConvert.SerializeObject(deserializeResult);
+                //dynamic serializeData = JsonConvert.SerializeObject(deserializeResult);
                 //dynamic tripResult = JsonConvert.DeserializeObject<dynamic>(serializeData);
 
                 return Ok(jsonResponse);

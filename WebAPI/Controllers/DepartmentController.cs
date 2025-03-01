@@ -1,5 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
+using System.Data;
 using WebAPI.DBEntity;
 using WebAPI.Models;
 
@@ -15,9 +17,9 @@ namespace WebAPI.Controllers
         public DepartmentController(IConfiguration configuration, DataContext context)
         {
             this._configuration = configuration;
-            this._context = context;           
+            this._context = context;
         }
-        
+
         [HttpGet(nameof(GetAllDepartment))]
         public async Task<IActionResult> GetAllDepartment()
         {
@@ -52,10 +54,10 @@ namespace WebAPI.Controllers
         [HttpPost(nameof(InsertDepartment))]
         public async Task<IActionResult> InsertDepartment(Department dep) 
         {
-            await _context.Department.AddAsync(dep);
-            await _context.SaveChangesAsync();
+            /*await _context.Department.AddAsync(dep);
+            await _context.SaveChangesAsync();*/
 
-            /*string query = @"insert into dbo.Department values ('"+dep.DepartmentName+@"')";
+            string query = @"insert into dbo.Department values ('" + dep.DepartmentName + @"')";
             DataTable table = new DataTable();
             SqlDataReader myReader;
             string SqlDataSource = _configuration.GetConnectionString("EmployeeAppCon");
@@ -68,7 +70,7 @@ namespace WebAPI.Controllers
                 myReader.Close();
                 myCon.Close();
             }
-            */
+
             return Ok("Added Successfully.");
         }
 

@@ -1,0 +1,113 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\yogesh\\DotNetProject\\CleanArchitecture\\CQRS_Demo\\MovieManagmentCQRSDemo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{938DAC73-28A3-4D48-B6ED-0F97F1CF7908}|MovieManagement.Library\\MovieManagement.Library.csproj|c:\\yogesh\\dotnetproject\\cleanarchitecture\\cqrs_demo\\moviemanagmentcqrsdemo\\moviemanagement.library\\repo\\datarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{938DAC73-28A3-4D48-B6ED-0F97F1CF7908}|MovieManagement.Library\\MovieManagement.Library.csproj|solutionrelative:moviemanagement.library\\repo\\datarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{938DAC73-28A3-4D48-B6ED-0F97F1CF7908}|MovieManagement.Library\\MovieManagement.Library.csproj|c:\\yogesh\\dotnetproject\\cleanarchitecture\\cqrs_demo\\moviemanagmentcqrsdemo\\moviemanagement.library\\handlers\\addmoviehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{938DAC73-28A3-4D48-B6ED-0F97F1CF7908}|MovieManagement.Library\\MovieManagement.Library.csproj|solutionrelative:moviemanagement.library\\handlers\\addmoviehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{938DAC73-28A3-4D48-B6ED-0F97F1CF7908}|MovieManagement.Library\\MovieManagement.Library.csproj|c:\\yogesh\\dotnetproject\\cleanarchitecture\\cqrs_demo\\moviemanagmentcqrsdemo\\moviemanagement.library\\commands\\addmoviecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{938DAC73-28A3-4D48-B6ED-0F97F1CF7908}|MovieManagement.Library\\MovieManagement.Library.csproj|solutionrelative:moviemanagement.library\\commands\\addmoviecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{977C793D-5A89-4676-A220-A5B84EF5F254}|MovieManagment.API\\MovieManagment.API.csproj|c:\\yogesh\\dotnetproject\\cleanarchitecture\\cqrs_demo\\moviemanagmentcqrsdemo\\moviemanagment.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{977C793D-5A89-4676-A220-A5B84EF5F254}|MovieManagment.API\\MovieManagment.API.csproj|solutionrelative:moviemanagment.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{977C793D-5A89-4676-A220-A5B84EF5F254}|MovieManagment.API\\MovieManagment.API.csproj|c:\\yogesh\\dotnetproject\\cleanarchitecture\\cqrs_demo\\moviemanagmentcqrsdemo\\moviemanagment.api\\controllers\\moviecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{977C793D-5A89-4676-A220-A5B84EF5F254}|MovieManagment.API\\MovieManagment.API.csproj|solutionrelative:moviemanagment.api\\controllers\\moviecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AddMovieCommand.cs",
+              "DocumentMoniker": "C:\\yogesh\\DotNetProject\\CleanArchitecture\\CQRS_Demo\\MovieManagmentCQRSDemo\\MovieManagement.Library\\Commands\\AddMovieCommand.cs",
+              "RelativeDocumentMoniker": "MovieManagement.Library\\Commands\\AddMovieCommand.cs",
+              "ToolTip": "C:\\yogesh\\DotNetProject\\CleanArchitecture\\CQRS_Demo\\MovieManagmentCQRSDemo\\MovieManagement.Library\\Commands\\AddMovieCommand.cs",
+              "RelativeToolTip": "MovieManagement.Library\\Commands\\AddMovieCommand.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-23T03:00:41.763Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\yogesh\\DotNetProject\\CleanArchitecture\\CQRS_Demo\\MovieManagmentCQRSDemo\\MovieManagment.API\\Program.cs",
+              "RelativeDocumentMoniker": "MovieManagment.API\\Program.cs",
+              "ToolTip": "C:\\yogesh\\DotNetProject\\CleanArchitecture\\CQRS_Demo\\MovieManagmentCQRSDemo\\MovieManagment.API\\Program.cs",
+              "RelativeToolTip": "MovieManagment.API\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T20:34:31.184Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MovieController.cs",
+              "DocumentMoniker": "C:\\yogesh\\DotNetProject\\CleanArchitecture\\CQRS_Demo\\MovieManagmentCQRSDemo\\MovieManagment.API\\Controllers\\MovieController.cs",
+              "RelativeDocumentMoniker": "MovieManagment.API\\Controllers\\MovieController.cs",
+              "ToolTip": "C:\\yogesh\\DotNetProject\\CleanArchitecture\\CQRS_Demo\\MovieManagmentCQRSDemo\\MovieManagment.API\\Controllers\\MovieController.cs",
+              "RelativeToolTip": "MovieManagment.API\\Controllers\\MovieController.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAgwB0AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T20:34:31.724Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AddMovieHandler.cs",
+              "DocumentMoniker": "C:\\yogesh\\DotNetProject\\CleanArchitecture\\CQRS_Demo\\MovieManagmentCQRSDemo\\MovieManagement.Library\\Handlers\\AddMovieHandler.cs",
+              "RelativeDocumentMoniker": "MovieManagement.Library\\Handlers\\AddMovieHandler.cs",
+              "ToolTip": "C:\\yogesh\\DotNetProject\\CleanArchitecture\\CQRS_Demo\\MovieManagmentCQRSDemo\\MovieManagement.Library\\Handlers\\AddMovieHandler.cs",
+              "RelativeToolTip": "MovieManagement.Library\\Handlers\\AddMovieHandler.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABEAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T21:02:38.12Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DataRepository.cs",
+              "DocumentMoniker": "C:\\yogesh\\DotNetProject\\CleanArchitecture\\CQRS_Demo\\MovieManagmentCQRSDemo\\MovieManagement.Library\\Repo\\DataRepository.cs",
+              "RelativeDocumentMoniker": "MovieManagement.Library\\Repo\\DataRepository.cs",
+              "ToolTip": "C:\\yogesh\\DotNetProject\\CleanArchitecture\\CQRS_Demo\\MovieManagmentCQRSDemo\\MovieManagement.Library\\Repo\\DataRepository.cs",
+              "RelativeToolTip": "MovieManagement.Library\\Repo\\DataRepository.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAIA9wBIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T20:34:31.746Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <h2>CAPTCHA Validation</h2>
+    <form method="post" asp-action="ValidateCaptcha">
+        <div>
+            <img src="/Captcha/GenerateCaptcha" alt="CAPTCHA" />
+        </div>
+        <div>
+            <label for="captchaInput">Enter CAPTCHA:</label>
+            <input type="text" id="captchaInput" name="captchaInput" required />
+        </div>
+        <div>
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+
+    @if (!string.IsNullOrEmpty(ViewBag.Message))
+    {
+        <p>@ViewBag.Message</p>
+    }
+</div>

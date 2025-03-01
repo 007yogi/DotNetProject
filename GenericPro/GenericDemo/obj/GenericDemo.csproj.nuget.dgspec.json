@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\yogesh\\coreApp\\GenericPro\\GenericDemo\\GenericDemo.csproj": {}
+    "C:\\yogesh\\DotNetProject\\GenericPro\\GenericDemo\\GenericDemo.csproj": {}
   },
   "projects": {
-    "D:\\yogesh\\coreApp\\GenericPro\\GenericDemo\\GenericDemo.csproj": {
+    "C:\\yogesh\\DotNetProject\\GenericPro\\GenericDemo\\GenericDemo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\yogesh\\coreApp\\GenericPro\\GenericDemo\\GenericDemo.csproj",
+        "projectUniqueName": "C:\\yogesh\\DotNetProject\\GenericPro\\GenericDemo\\GenericDemo.csproj",
         "projectName": "GenericDemo",
-        "projectPath": "D:\\yogesh\\coreApp\\GenericPro\\GenericDemo\\GenericDemo.csproj",
-        "packagesPath": "C:\\Users\\rajesh.khanna.RAJESH-SI1003\\.nuget\\packages\\",
-        "outputPath": "D:\\yogesh\\coreApp\\GenericPro\\GenericDemo\\obj\\",
+        "projectPath": "C:\\yogesh\\DotNetProject\\GenericPro\\GenericDemo\\GenericDemo.csproj",
+        "packagesPath": "C:\\Users\\Yogesh\\.nuget\\packages\\",
+        "outputPath": "C:\\yogesh\\DotNetProject\\GenericPro\\GenericDemo\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\rajesh.khanna.RAJESH-SI1003\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Yogesh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,17 +26,18 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\yogesh\\coreApp\\GenericPro\\OrderStore.Domain\\OrderStore.Domain.csproj": {
-                "projectPath": "D:\\yogesh\\coreApp\\GenericPro\\OrderStore.Domain\\OrderStore.Domain.csproj"
+              "C:\\yogesh\\DotNetProject\\GenericPro\\OrderStore.Domain\\OrderStore.Domain.csproj": {
+                "projectPath": "C:\\yogesh\\DotNetProject\\GenericPro\\OrderStore.Domain\\OrderStore.Domain.csproj"
               },
-              "D:\\yogesh\\coreApp\\GenericPro\\OrderStore.Repository\\OrderStore.Repository.csproj": {
-                "projectPath": "D:\\yogesh\\coreApp\\GenericPro\\OrderStore.Repository\\OrderStore.Repository.csproj"
+              "C:\\yogesh\\DotNetProject\\GenericPro\\OrderStore.Repository\\OrderStore.Repository.csproj": {
+                "projectPath": "C:\\yogesh\\DotNetProject\\GenericPro\\OrderStore.Repository\\OrderStore.Repository.csproj"
               }
             }
           }
@@ -41,6 +46,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -81,21 +91,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\yogesh\\coreApp\\GenericPro\\OrderStore.Domain\\OrderStore.Domain.csproj": {
+    "C:\\yogesh\\DotNetProject\\GenericPro\\OrderStore.Domain\\OrderStore.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\yogesh\\coreApp\\GenericPro\\OrderStore.Domain\\OrderStore.Domain.csproj",
+        "projectUniqueName": "C:\\yogesh\\DotNetProject\\GenericPro\\OrderStore.Domain\\OrderStore.Domain.csproj",
         "projectName": "OrderStore.Domain",
-        "projectPath": "D:\\yogesh\\coreApp\\GenericPro\\OrderStore.Domain\\OrderStore.Domain.csproj",
-        "packagesPath": "C:\\Users\\rajesh.khanna.RAJESH-SI1003\\.nuget\\packages\\",
-        "outputPath": "D:\\yogesh\\coreApp\\GenericPro\\OrderStore.Domain\\obj\\",
+        "projectPath": "C:\\yogesh\\DotNetProject\\GenericPro\\OrderStore.Domain\\OrderStore.Domain.csproj",
+        "packagesPath": "C:\\Users\\Yogesh\\.nuget\\packages\\",
+        "outputPath": "C:\\yogesh\\DotNetProject\\GenericPro\\OrderStore.Domain\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\rajesh.khanna.RAJESH-SI1003\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Yogesh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -103,6 +117,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -115,6 +130,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -136,21 +156,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\yogesh\\coreApp\\GenericPro\\OrderStore.Repository\\OrderStore.Repository.csproj": {
+    "C:\\yogesh\\DotNetProject\\GenericPro\\OrderStore.Repository\\OrderStore.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\yogesh\\coreApp\\GenericPro\\OrderStore.Repository\\OrderStore.Repository.csproj",
+        "projectUniqueName": "C:\\yogesh\\DotNetProject\\GenericPro\\OrderStore.Repository\\OrderStore.Repository.csproj",
         "projectName": "OrderStore.Repository",
-        "projectPath": "D:\\yogesh\\coreApp\\GenericPro\\OrderStore.Repository\\OrderStore.Repository.csproj",
-        "packagesPath": "C:\\Users\\rajesh.khanna.RAJESH-SI1003\\.nuget\\packages\\",
-        "outputPath": "D:\\yogesh\\coreApp\\GenericPro\\OrderStore.Repository\\obj\\",
+        "projectPath": "C:\\yogesh\\DotNetProject\\GenericPro\\OrderStore.Repository\\OrderStore.Repository.csproj",
+        "packagesPath": "C:\\Users\\Yogesh\\.nuget\\packages\\",
+        "outputPath": "C:\\yogesh\\DotNetProject\\GenericPro\\OrderStore.Repository\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\rajesh.khanna.RAJESH-SI1003\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Yogesh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -158,14 +182,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\yogesh\\coreApp\\GenericPro\\OrderStore.Domain\\OrderStore.Domain.csproj": {
-                "projectPath": "D:\\yogesh\\coreApp\\GenericPro\\OrderStore.Domain\\OrderStore.Domain.csproj"
+              "C:\\yogesh\\DotNetProject\\GenericPro\\OrderStore.Domain\\OrderStore.Domain.csproj": {
+                "projectPath": "C:\\yogesh\\DotNetProject\\GenericPro\\OrderStore.Domain\\OrderStore.Domain.csproj"
               }
             }
           }
@@ -174,6 +199,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -217,7 +247,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }

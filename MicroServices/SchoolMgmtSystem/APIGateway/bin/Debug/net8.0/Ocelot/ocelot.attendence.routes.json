@@ -1,0 +1,40 @@
+{
+  "Routes": [
+    {
+      "DownstreamPathTemplate": "/api/StudentAttendence/GetAllStudent", // From API Gateway to Micro-Service
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44377
+        }
+      ],
+      "UpstreamPathTemplate": "/apigateway/AttendenceService/GetAllStudents", // From Client to API Gateway 
+      "UpstreamHttpMethod": [ "Get" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/StudentAttendence/GetStudentById/{id}", // From API Gateway to Micro-Service
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44377
+        }
+      ],
+      "UpstreamPathTemplate": "/apigateway/AttendenceService/GetStudentById/{id}", // From Client to API Gateway 
+      "UpstreamHttpMethod": [ "Get" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/StudentAttendence/AddStudentAttendence", // From API Gateway to Micro-Service
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44377
+        }
+      ],
+      "UpstreamPathTemplate": "/apigateway/AttendenceService/AddStudentAttendence", // From Client to API Gateway 
+      "UpstreamHttpMethod": [ "Post" ]
+    }
+  ]
+}

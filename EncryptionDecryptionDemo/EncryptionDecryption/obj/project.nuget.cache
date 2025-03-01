@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "KxICdVNSIy3HOgn+kEW7VgqTP1sH7rGi1GfqmNm7tt/fJIn6ELBkQEf7IJ0dkiGlfO354YfT/e05DibcVYwNnQ==",
+  "success": true,
+  "projectFilePath": "C:\\yogesh\\DotNetProject\\EncryptionDecryptionDemo\\EncryptionDecryption\\EncryptionDecryption.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Yogesh\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\Yogesh\\.nuget\\packages\\microsoft.openapi\\1.6.14\\microsoft.openapi.1.6.14.nupkg.sha512",
+    "C:\\Users\\Yogesh\\.nuget\\packages\\swashbuckle.aspnetcore\\6.9.0\\swashbuckle.aspnetcore.6.9.0.nupkg.sha512",
+    "C:\\Users\\Yogesh\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.9.0\\swashbuckle.aspnetcore.swagger.6.9.0.nupkg.sha512",
+    "C:\\Users\\Yogesh\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.9.0\\swashbuckle.aspnetcore.swaggergen.6.9.0.nupkg.sha512",
+    "C:\\Users\\Yogesh\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.9.0\\swashbuckle.aspnetcore.swaggerui.6.9.0.nupkg.sha512"
+  ],
+  "logs": []
+}

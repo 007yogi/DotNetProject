@@ -1,0 +1,74 @@
+[
+  {
+    "ContainingType": "StudentAdmissionMgmt.Controllers.StudentAdmissionController",
+    "Method": "AdmitNewStudent",
+    "RelativePath": "api/StudentAdmission/AdmitNewStudent",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "std",
+        "Type": "StudentAdmissionMgmt.Models.StudentAdmissionDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "StudentAdmissionMgmt.Controllers.StudentAdmissionController",
+    "Method": "GetStudentById",
+    "RelativePath": "api/StudentAdmission/GetStudentById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "StudentAdmissionMgmt.Models.StudentAdmissionDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "StudentAdmissionMgmt.Controllers.StudentAdmissionController",
+    "Method": "GetStudentList",
+    "RelativePath": "api/StudentAdmission/GetStudentList",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[StudentAdmissionMgmt.Models.StudentAdmissionDTO, StudentAdmissionMgmt, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]

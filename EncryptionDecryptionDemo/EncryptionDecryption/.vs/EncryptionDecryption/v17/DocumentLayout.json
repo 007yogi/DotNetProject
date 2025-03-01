@@ -1,0 +1,96 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\yogesh\\DotNetProject\\EncryptionDecryptionDemo\\EncryptionDecryption\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2D1379F6-E68E-4E96-84BF-2CB8843077DB}|EncryptionDecryption.csproj|c:\\yogesh\\dotnetproject\\encryptiondecryptiondemo\\encryptiondecryption\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D1379F6-E68E-4E96-84BF-2CB8843077DB}|EncryptionDecryption.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D1379F6-E68E-4E96-84BF-2CB8843077DB}|EncryptionDecryption.csproj|c:\\yogesh\\dotnetproject\\encryptiondecryptiondemo\\encryptiondecryption\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2D1379F6-E68E-4E96-84BF-2CB8843077DB}|EncryptionDecryption.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D1379F6-E68E-4E96-84BF-2CB8843077DB}|EncryptionDecryption.csproj|c:\\yogesh\\dotnetproject\\encryptiondecryptiondemo\\encryptiondecryption\\controllers\\encryptdecryptcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D1379F6-E68E-4E96-84BF-2CB8843077DB}|EncryptionDecryption.csproj|solutionrelative:controllers\\encryptdecryptcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D1379F6-E68E-4E96-84BF-2CB8843077DB}|EncryptionDecryption.csproj|c:\\yogesh\\dotnetproject\\encryptiondecryptiondemo\\encryptiondecryption\\aesmgmt\\encryptdecryptservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D1379F6-E68E-4E96-84BF-2CB8843077DB}|EncryptionDecryption.csproj|solutionrelative:aesmgmt\\encryptdecryptservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\yogesh\\DotNetProject\\EncryptionDecryptionDemo\\EncryptionDecryption\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\yogesh\\DotNetProject\\EncryptionDecryptionDemo\\EncryptionDecryption\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-16T04:53:48.12Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\yogesh\\DotNetProject\\EncryptionDecryptionDemo\\EncryptionDecryption\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\yogesh\\DotNetProject\\EncryptionDecryptionDemo\\EncryptionDecryption\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T14:58:55.98Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EncryptDecryptController.cs",
+              "DocumentMoniker": "C:\\yogesh\\DotNetProject\\EncryptionDecryptionDemo\\EncryptionDecryption\\Controllers\\EncryptDecryptController.cs",
+              "RelativeDocumentMoniker": "Controllers\\EncryptDecryptController.cs",
+              "ToolTip": "C:\\yogesh\\DotNetProject\\EncryptionDecryptionDemo\\EncryptionDecryption\\Controllers\\EncryptDecryptController.cs",
+              "RelativeToolTip": "Controllers\\EncryptDecryptController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T15:57:25.02Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EncryptDecryptService.cs",
+              "DocumentMoniker": "C:\\yogesh\\DotNetProject\\EncryptionDecryptionDemo\\EncryptionDecryption\\AESMgmt\\EncryptDecryptService.cs",
+              "RelativeDocumentMoniker": "AESMgmt\\EncryptDecryptService.cs",
+              "ToolTip": "C:\\yogesh\\DotNetProject\\EncryptionDecryptionDemo\\EncryptionDecryption\\AESMgmt\\EncryptDecryptService.cs",
+              "RelativeToolTip": "AESMgmt\\EncryptDecryptService.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAACoAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T15:59:19.393Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
@@ -14,12 +15,14 @@ namespace AdoDemo
             bool result = false;
             try
             {
-                string conStr = "data source=.; database=EmployeeDB; integrated security=true";
+                //string conStr = "data source=.; database=EmployeeDB; integrated security=true";
+                string conStr = ConfigurationManager.ConnectionStrings["myCon"].ConnectionString;
                 using (SqlConnection con = new SqlConnection(conStr))
                 {
                     string commandText = "select * from AdoDemo; select * from products";
                     SqlCommand cmd = new SqlCommand(commandText, con);
                     con.Open();
+
                     SqlDataReader sdr = cmd.ExecuteReader();
                     while (sdr.Read())
                     {

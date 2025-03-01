@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.JsonPatch;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using Microsoft.Extensions.Caching.Memory;
 using WebAPI.DBEntity;
 using WebAPI.Models;
@@ -15,9 +16,9 @@ namespace WebAPI.Controllers
         private readonly IMemoryCache _memoryCache;
         private readonly IConfiguration _config;
 
-        public EmployeeController(DataContext contect, IMemoryCache memoryCache, IConfiguration config)
+        public EmployeeController(DataContext context, IMemoryCache memoryCache, IConfiguration config)
         {
-            this._context = contect;
+            this._context = context;
             this._memoryCache = memoryCache;
             this._config = config;
         }
@@ -28,8 +29,7 @@ namespace WebAPI.Controllers
             if (emp == null)
             {
                 return BadRequest();
-            }
-
+            }            
             var userExists = await _context.Employee.FirstOrDefaultAsync(x => x.EmployeeName.ToLower() == emp.EmployeeName.ToLower());
             if (userExists != null)
             {
